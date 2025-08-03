@@ -40,7 +40,7 @@ Build and deploy a sample application on Amazon EKS using Terraform for infrastr
 Initialize and apply Terraform:
 <pre>
 terraform init
-terraform plam
+terraform plan
 terraform apply -auto-approve
 </pre>
 ![P1](/images/p1.png "p1")
@@ -112,5 +112,6 @@ kubectl exec -it s3-test-pod -- bash
 aws s3 ls
 </pre>
 ![P11](/images/p11.png "p11")
+![P12](/images/p12.png "p12")
 
 
