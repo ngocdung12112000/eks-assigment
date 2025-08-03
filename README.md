@@ -95,6 +95,7 @@ Check HPA status:
 kubectl get hpa
 kubectl top pods
 </pre>
+![P9](/images/p9.png "p9")
 #### &nbsp;&nbsp;&nbsp;&nbsp; 3.5 Observability (Logs and Metrics)
 Check logs of a pod:
 <pre>
